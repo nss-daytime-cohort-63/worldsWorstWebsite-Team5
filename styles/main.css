@@ -1,0 +1,10 @@
+.pageHeader {
+    display: flex;
+    width: 800px;
+    font-size: 3rem;
+    background-color: rgb(178, 221, 59);
+    font-style: oblique;
+    border: 5px solid rgb(245, 157, 24);
+    padding: 1em;
+    margin: 1em;
+}

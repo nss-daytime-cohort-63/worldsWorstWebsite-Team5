@@ -1,3 +1,7 @@
+body {
+    font-family: 'Tilt Prism', cursive;
+}
+
 .pageHeader {
     display: flex;
     width: 800px;
@@ -110,4 +114,17 @@ h2 {
 
 .birdPic {
     width: 400px;
+}
+
+.moonMeme {
+    width: 400px;
+}
+
+.moon {
+    display: flex;
+}
+
+.moonHeader {
+    text-align: center;
+    font-size: 130px;
 }

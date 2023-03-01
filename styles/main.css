@@ -1,5 +1,3 @@
-
-
 .javier {
     display: inline-block;
     margin: 40px;
@@ -12,6 +10,11 @@
     -ms-transform: scale(-1, 1);
     transform: scale(-1, 1);
 }
+
+body {
+    font-family: 'Tilt Prism', cursive;
+}
+
 .pageHeader {
     display: flex;
     width: 800px;

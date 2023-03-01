@@ -1,6 +1,53 @@
+.pageHeader {
+    display: flex;
+    width: 800px;
+    font-size: 3rem;
+    background-color: rgb(178, 221, 59);
+    font-style: oblique;
+    border: 5px solid rgb(245, 157, 24);
+    padding: 1em;
+    margin: 1em;
+}
 
+.blink {
+    animation: blinker 0.2s linear infinite;
+}
 
-.javier {
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }  
+}
+
+a {
+    font-size: 300%;
+}
+
+    a:link {
+        color: green;
+        background-color: transparent;
+        text-decoration: none;
+  }
+  
+    a:visited {
+        color: pink;
+        background-color: transparent;
+        text-decoration: none;
+  }
+  
+    a:hover {
+        color: red;
+        background-color: transparent;
+        text-decoration: underline;
+  }
+  
+    a:active {
+        color: yellow;
+        background-color: transparent;
+        text-decoration: underline;
+  }
+
+.text1 {
     display: inline-block;
     margin: 40px;
     font-size: larger;
@@ -12,13 +59,35 @@
     -ms-transform: scale(-1, 1);
     transform: scale(-1, 1);
 }
-.pageHeader {
-    display: flex;
-    width: 800px;
-    font-size: 3rem;
-    background-color: rgb(178, 221, 59);
-    font-style: oblique;
-    border: 5px solid rgb(245, 157, 24);
-    padding: 1em;
-    margin: 1em;
+
+@keyframes animation1 {
+    from {background-color: aqua;}
+    to {background-color: yellow;}   
+}
+
+.animation1 {
+    background-color: rgb(56, 51, 51);
+    animation-name: animation1;
+    animation-duration: 4s;
+    animation-iteration-count: 5;
+}
+
+.text2 {
+    display: inline-block;
+    font-size: larger;
+    transform: scale(-1, 1);
+    color: #ebb645;
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+}
+
+span.test2 {
+  writing-mode: vertical-rl; 
+}
+
+.marquee1 {
+    font-size: 333%;
 }

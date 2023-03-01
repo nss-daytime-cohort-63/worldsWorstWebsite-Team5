@@ -91,3 +91,23 @@ span.test2 {
 .marquee1 {
     font-size: 333%;
 }
+
+.birds {
+    display: flex;
+}
+
+body {
+    cursor: url(virus.cur),auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 150px;
+    text-shadow: 10px 10px 5px rgb(171, 250, 68);
+    line-height: 0px;
+    color: orangered;
+}
+
+.birdPic {
+    width: 400px;
+}
